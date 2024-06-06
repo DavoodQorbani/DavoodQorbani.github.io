@@ -138,13 +138,10 @@
       Battery electric vehicle (BEV / Green) ownership development in Norway from 2020 to 2022—Sankey diagram of the number of green vehicles per household in the green adopter population.
     </i></p>
     <p><strong>
-      <span style="color: red;">
-        PLEASE READ: This figure will be corrected!
-      </span>
+      Note:
     </strong>
-    Thanks to the public availability of the analysis code, <a href=https://twitter.com/ErlendEBo_Econ/ target="_new" title="Twitter">Erlend Bø</a> found a potential issue that leads to double counting of vehicles during aggregation from the person to household level in the custom-written code. The preliminary findings indicate that the issue likely affects the numbers in the Sankey diagram of BEV ownership. The journal has been informed about the issue, and a clarification and an Author Correction will be made available.
+      This is the author correction version. The errored version can be found at <a href="./sankey_with_errors.html" target="_new" title="DOI"><i>this link</i></a>.
     </p>
-
   </div>
 
 
@@ -152,7 +149,7 @@
 
     <!-- Content for column 2020-2022 --> <!-- modified by DQ --> 
     <div class="column">
-      <h2>.</h2> <!-- 🚗🔌 modified by DQ -->
+      <h2>.</h2>
       
       <!-- Adding the vertical text --> <!-- modified by DQ -->
       <div id="verticalText">Households</div>
@@ -177,7 +174,7 @@
               }
             }
           },
-          {"orient": "left", "scale": "y", "values": [0, 50000, 100000, 150000, 200000, 250000, 300000, 350000]} /* modified by DQ */
+          {"orient": "left", "scale": "y", "values": [0, 50000, 100000, 150000, 200000, 250000, 300000, 350000, 400000, 450000]} /* modified by DQ */
         ],
         "width": 480, /* modified by DQ */
         "scales": [
@@ -295,1213 +292,254 @@
               "aggregations": [
                 {
                   "key": {"from": "0 BEV", "to": "0 BEV"},
-                  "doc_count": 17467,
+                  "doc_count": 29137,
                   "from": "0 BEV",
                   "to": "0 BEV",
-                  "size": 17467
+                  "size": 29137
                 },
                 {
                   "key": {"from": "0 BEV", "to": "1 BEV"},
-                  "doc_count": 25325,
+                  "doc_count": 172695,
                   "from": "0 BEV",
                   "to": "1 BEV",
-                  "size": 25325
+                  "size": 172695
                 },
                 {
                   "key": {"from": "0 BEV", "to": "2 BEVs"},
-                  "doc_count": 43481,
+                  "doc_count": 10052,
                   "from": "0 BEV",
                   "to": "2 BEVs",
-                  "size": 43481
+                  "size": 10052
                 },
                 {
                   "key": {"from": "0 BEV", "to": "3 BEVs"},
-                  "doc_count": 22055,
+                  "doc_count": 404,
                   "from": "0 BEV",
                   "to": "3 BEVs",
-                  "size": 22055
+                  "size": 404
                 },
                 {
                   "key": {"from": "0 BEV", "to": "4 BEVs"},
-                  "doc_count": 27497,
+                  "doc_count": 29,
                   "from": "0 BEV",
                   "to": "4 BEVs",
-                  "size": 27497
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "5 BEVs"},
-                  "doc_count": 9021,
-                  "from": "0 BEV",
-                  "to": "5 BEVs",
-                  "size": 9021
+                  "size": 29
                 },
                 {
                   "key": {"from": "0 BEV", "to": "6 BEVs"},
-                  "doc_count": 2137,
-                  "from": "0 BEV",
-                  "to": "6 BEVs",
-                  "size": 2137
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "7 BEVs"},
-                  "doc_count": 252,
-                  "from": "0 BEV",
-                  "to": "7 BEVs",
-                  "size": 252
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "8 BEVs"},
-                  "doc_count": 1364,
-                  "from": "0 BEV",
-                  "to": "8 BEVs",
-                  "size": 1364
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "9 BEVs"},
-                  "doc_count": 36,
-                  "from": "0 BEV",
-                  "to": "9 BEVs",
-                  "size": 36
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "10 BEVs"},
-                  "doc_count": 517,
-                  "from": "0 BEV",
-                  "to": "10 BEVs",
-                  "size": 517
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "12 BEVs"},
-                  "doc_count": 108,
-                  "from": "0 BEV",
-                  "to": "12 BEVs",
-                  "size": 108
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "14 BEVs"},
-                  "doc_count": 21,
-                  "from": "0 BEV",
-                  "to": "14 BEVs",
-                  "size": 21
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "15 BEVs"},
-                  "doc_count": 15,
-                  "from": "0 BEV",
-                  "to": "15 BEVs",
-                  "size": 15
-                },
-                {
-                  "key": {"from": "0 BEV", "to": "18 BEVs"},
-                  "doc_count": 6,
-                  "from": "0 BEV",
-                  "to": "18 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "0 BEV"},
-                  "doc_count": 2930,
-                  "from": "1 BEV",
-                  "to": "0 BEV",
-                  "size": 2930
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "1 BEV"},
-                  "doc_count": 18598,
-                  "from": "1 BEV",
-                  "to": "1 BEV",
-                  "size": 18598
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "2 BEVs"},
-                  "doc_count": 3219,
-                  "from": "1 BEV",
-                  "to": "2 BEVs",
-                  "size": 3219
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "3 BEVs"},
-                  "doc_count": 820,
-                  "from": "1 BEV",
-                  "to": "3 BEVs",
-                  "size": 820
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "4 BEVs"},
-                  "doc_count": 393,
-                  "from": "1 BEV",
-                  "to": "4 BEVs",
-                  "size": 393
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "5 BEVs"},
-                  "doc_count": 65,
-                  "from": "1 BEV",
-                  "to": "5 BEVs",
-                  "size": 65
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "6 BEVs"},
-                  "doc_count": 82,
-                  "from": "1 BEV",
-                  "to": "6 BEVs",
-                  "size": 82
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "8 BEVs"},
-                  "doc_count": 21,
-                  "from": "1 BEV",
-                  "to": "8 BEVs",
-                  "size": 21
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "10 BEVs"},
-                  "doc_count": 15,
-                  "from": "1 BEV",
-                  "to": "10 BEVs",
-                  "size": 15
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "11 BEVs"},
-                  "doc_count": 6,
-                  "from": "1 BEV",
-                  "to": "11 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "1 BEV", "to": "12 BEVs"},
-                  "doc_count": 5,
-                  "from": "1 BEV",
-                  "to": "12 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "0 BEV"},
-                  "doc_count": 4150,
-                  "from": "2 BEVs",
-                  "to": "0 BEV",
-                  "size": 4150
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "1 BEV"},
-                  "doc_count": 2811,
-                  "from": "2 BEVs",
-                  "to": "1 BEV",
-                  "size": 2811
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "2 BEVs"},
-                  "doc_count": 29663,
-                  "from": "2 BEVs",
-                  "to": "2 BEVs",
-                  "size": 29663
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "3 BEVs"},
-                  "doc_count": 4108,
-                  "from": "2 BEVs",
-                  "to": "3 BEVs",
-                  "size": 4108
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "4 BEVs"},
-                  "doc_count": 2610,
-                  "from": "2 BEVs",
-                  "to": "4 BEVs",
-                  "size": 2610
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "5 BEVs"},
-                  "doc_count": 76,
-                  "from": "2 BEVs",
-                  "to": "5 BEVs",
-                  "size": 76
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "6 BEVs"},
-                  "doc_count": 518,
-                  "from": "2 BEVs",
-                  "to": "6 BEVs",
-                  "size": 518
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "7 BEVs"},
-                  "doc_count": 5,
-                  "from": "2 BEVs",
-                  "to": "7 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "8 BEVs"},
-                  "doc_count": 58,
-                  "from": "2 BEVs",
-                  "to": "8 BEVs",
-                  "size": 58
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "9 BEVs"},
-                  "doc_count": 22,
-                  "from": "2 BEVs",
-                  "to": "9 BEVs",
-                  "size": 22
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "10 BEVs"},
-                  "doc_count": 10,
-                  "from": "2 BEVs",
-                  "to": "10 BEVs",
-                  "size": 10
-                },
-                {
-                  "key": {"from": "2 BEVs", "to": "12 BEVs"},
                   "doc_count": 7,
-                  "from": "2 BEVs",
-                  "to": "12 BEVs",
+                  "from": "0 BEV",
+                  "to": "6 BEVs",
                   "size": 7
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "0 BEV"},
-                  "doc_count": 2784,
-                  "from": "3 BEVs",
+                  "key": {"from": "1 BEV", "to": "0 BEV"},
+                  "doc_count": 21126,
+                  "from": "1 BEV",
                   "to": "0 BEV",
-                  "size": 2784
+                  "size": 21126
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "1 BEV"},
-                  "doc_count": 591,
-                  "from": "3 BEVs",
+                  "key": {"from": "1 BEV", "to": "1 BEV"},
+                  "doc_count": 178052,
+                  "from": "1 BEV",
                   "to": "1 BEV",
-                  "size": 591
+                  "size": 178052
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "2 BEVs"},
-                  "doc_count": 4833,
-                  "from": "3 BEVs",
+                  "key": {"from": "1 BEV", "to": "2 BEVs"},
+                  "doc_count": 29551,
+                  "from": "1 BEV",
                   "to": "2 BEVs",
-                  "size": 4833
+                  "size": 29551
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "3 BEVs"},
-                  "doc_count": 13352,
-                  "from": "3 BEVs",
+                  "key": {"from": "1 BEV", "to": "3 BEVs"},
+                  "doc_count": 1291,
+                  "from": "1 BEV",
                   "to": "3 BEVs",
-                  "size": 13352
+                  "size": 1291
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "4 BEVs"},
-                  "doc_count": 4798,
-                  "from": "3 BEVs",
+                  "key": {"from": "1 BEV", "to": "4 BEVs"},
+                  "doc_count": 67,
+                  "from": "1 BEV",
                   "to": "4 BEVs",
-                  "size": 4798
+                  "size": 67
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "5 BEVs"},
-                  "doc_count": 215,
-                  "from": "3 BEVs",
+                  "key": {"from": "1 BEV", "to": "5 BEVs"},
+                  "doc_count": 5,
+                  "from": "1 BEV",
                   "to": "5 BEVs",
-                  "size": 215
+                  "size": 5
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "6 BEVs"},
-                  "doc_count": 1471,
-                  "from": "3 BEVs",
+                  "key": {"from": "1 BEV", "to": "6 BEVs"},
+                  "doc_count": 7,
+                  "from": "1 BEV",
                   "to": "6 BEVs",
-                  "size": 1471
+                  "size": 7
                 },
                 {
-                  "key": {"from": "3 BEVs", "to": "7 BEVs"},
-                  "doc_count": 9,
-                  "from": "3 BEVs",
-                  "to": "7 BEVs",
-                  "size": 9
-                },
-                {
-                  "key": {"from": "3 BEVs", "to": "8 BEVs"},
-                  "doc_count": 627,
-                  "from": "3 BEVs",
-                  "to": "8 BEVs",
-                  "size": 627
-                },
-                {
-                  "key": {"from": "3 BEVs", "to": "9 BEVs"},
-                  "doc_count": 31,
-                  "from": "3 BEVs",
-                  "to": "9 BEVs",
-                  "size": 31
-                },
-                {
-                  "key": {"from": "3 BEVs", "to": "10 BEVs"},
-                  "doc_count": 25,
-                  "from": "3 BEVs",
-                  "to": "10 BEVs",
-                  "size": 25
-                },
-                {
-                  "key": {"from": "3 BEVs", "to": "12 BEVs"},
-                  "doc_count": 24,
-                  "from": "3 BEVs",
-                  "to": "12 BEVs",
-                  "size": 24
-                },
-                {
-                  "key": {"from": "3 BEVs", "to": "16 BEVs"},
-                  "doc_count": 6,
-                  "from": "3 BEVs",
-                  "to": "16 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "0 BEV"},
-                  "doc_count": 3638,
-                  "from": "4 BEVs",
+                  "key": {"from": "2 BEVs", "to": "0 BEV"},
+                  "doc_count": 609,
+                  "from": "2 BEVs",
                   "to": "0 BEV",
-                  "size": 3638
+                  "size": 609
                 },
                 {
-                  "key": {"from": "4 BEVs", "to": "1 BEV"},
-                  "doc_count": 458,
-                  "from": "4 BEVs",
+                  "key": {"from": "2 BEVs", "to": "1 BEV"},
+                  "doc_count": 5006,
+                  "from": "2 BEVs",
                   "to": "1 BEV",
-                  "size": 458
+                  "size": 5006
                 },
                 {
-                  "key": {"from": "4 BEVs", "to": "2 BEVs"},
-                  "doc_count": 1502,
-                  "from": "4 BEVs",
+                  "key": {"from": "2 BEVs", "to": "2 BEVs"},
+                  "doc_count": 14636,
+                  "from": "2 BEVs",
                   "to": "2 BEVs",
-                  "size": 1502
+                  "size": 14636
                 },
                 {
-                  "key": {"from": "4 BEVs", "to": "3 BEVs"},
-                  "doc_count": 4071,
-                  "from": "4 BEVs",
+                  "key": {"from": "2 BEVs", "to": "3 BEVs"},
+                  "doc_count": 1381,
+                  "from": "2 BEVs",
                   "to": "3 BEVs",
-                  "size": 4071
+                  "size": 1381
                 },
                 {
-                  "key": {"from": "4 BEVs", "to": "4 BEVs"},
-                  "doc_count": 26308,
-                  "from": "4 BEVs",
+                  "key": {"from": "2 BEVs", "to": "4 BEVs"},
+                  "doc_count": 98,
+                  "from": "2 BEVs",
                   "to": "4 BEVs",
-                  "size": 26308
+                  "size": 98
                 },
                 {
-                  "key": {"from": "4 BEVs", "to": "5 BEVs"},
-                  "doc_count": 1735,
-                  "from": "4 BEVs",
-                  "to": "5 BEVs",
-                  "size": 1735
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "6 BEVs"},
-                  "doc_count": 849,
-                  "from": "4 BEVs",
-                  "to": "6 BEVs",
-                  "size": 849
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "7 BEVs"},
+                  "key": {"from": "2 BEVs", "to": "5 BEVs"},
                   "doc_count": 10,
-                  "from": "4 BEVs",
-                  "to": "7 BEVs",
+                  "from": "2 BEVs",
+                  "to": "5 BEVs",
                   "size": 10
                 },
                 {
-                  "key": {"from": "4 BEVs", "to": "8 BEVs"},
-                  "doc_count": 4097,
-                  "from": "4 BEVs",
-                  "to": "8 BEVs",
-                  "size": 4097
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "9 BEVs"},
-                  "doc_count": 25,
-                  "from": "4 BEVs",
-                  "to": "9 BEVs",
-                  "size": 25
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "10 BEVs"},
-                  "doc_count": 216,
-                  "from": "4 BEVs",
-                  "to": "10 BEVs",
-                  "size": 216
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "12 BEVs"},
-                  "doc_count": 133,
-                  "from": "4 BEVs",
-                  "to": "12 BEVs",
-                  "size": 133
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "15 BEVs"},
+                  "key": {"from": "2 BEVs", "to": "6 BEVs"},
                   "doc_count": 5,
-                  "from": "4 BEVs",
-                  "to": "15 BEVs",
+                  "from": "2 BEVs",
+                  "to": "6 BEVs",
                   "size": 5
                 },
                 {
-                  "key": {"from": "4 BEVs", "to": "16 BEVs"},
-                  "doc_count": 5,
-                  "from": "4 BEVs",
-                  "to": "16 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "4 BEVs", "to": "21 BEVs"},
-                  "doc_count": 5,
-                  "from": "4 BEVs",
-                  "to": "21 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "0 BEV"},
-                  "doc_count": 1280,
-                  "from": "5 BEVs",
+                  "key": {"from": "3 BEVs", "to": "0 BEV"},
+                  "doc_count": 15,
+                  "from": "3 BEVs",
                   "to": "0 BEV",
-                  "size": 1280
+                  "size": 15
                 },
                 {
-                  "key": {"from": "5 BEVs", "to": "1 BEV"},
+                  "key": {"from": "3 BEVs", "to": "1 BEV"},
                   "doc_count": 127,
-                  "from": "5 BEVs",
+                  "from": "3 BEVs",
                   "to": "1 BEV",
                   "size": 127
                 },
                 {
-                  "key": {"from": "5 BEVs", "to": "2 BEVs"},
-                  "doc_count": 169,
-                  "from": "5 BEVs",
+                  "key": {"from": "3 BEVs", "to": "2 BEVs"},
+                  "doc_count": 352,
+                  "from": "3 BEVs",
                   "to": "2 BEVs",
-                  "size": 169
+                  "size": 352
                 },
                 {
-                  "key": {"from": "5 BEVs", "to": "3 BEVs"},
-                  "doc_count": 465,
-                  "from": "5 BEVs",
+                  "key": {"from": "3 BEVs", "to": "3 BEVs"},
+                  "doc_count": 330,
+                  "from": "3 BEVs",
                   "to": "3 BEVs",
-                  "size": 465
+                  "size": 330
                 },
                 {
-                  "key": {"from": "5 BEVs", "to": "4 BEVs"},
-                  "doc_count": 1855,
-                  "from": "5 BEVs",
-                  "to": "4 BEVs",
-                  "size": 1855
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "5 BEVs"},
-                  "doc_count": 9083,
-                  "from": "5 BEVs",
-                  "to": "5 BEVs",
-                  "size": 9083
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "6 BEVs"},
-                  "doc_count": 422,
-                  "from": "5 BEVs",
-                  "to": "6 BEVs",
-                  "size": 422
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "7 BEVs"},
-                  "doc_count": 15,
-                  "from": "5 BEVs",
-                  "to": "7 BEVs",
-                  "size": 15
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "8 BEVs"},
-                  "doc_count": 336,
-                  "from": "5 BEVs",
-                  "to": "8 BEVs",
-                  "size": 336
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "9 BEVs"},
-                  "doc_count": 5,
-                  "from": "5 BEVs",
-                  "to": "9 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "10 BEVs"},
-                  "doc_count": 1649,
-                  "from": "5 BEVs",
-                  "to": "10 BEVs",
-                  "size": 1649
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "12 BEVs"},
-                  "doc_count": 56,
-                  "from": "5 BEVs",
-                  "to": "12 BEVs",
-                  "size": 56
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "14 BEVs"},
-                  "doc_count": 6,
-                  "from": "5 BEVs",
-                  "to": "14 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "5 BEVs", "to": "15 BEVs"},
+                  "key": {"from": "3 BEVs", "to": "4 BEVs"},
                   "doc_count": 57,
-                  "from": "5 BEVs",
-                  "to": "15 BEVs",
+                  "from": "3 BEVs",
+                  "to": "4 BEVs",
                   "size": 57
                 },
                 {
-                  "key": {"from": "5 BEVs", "to": "20 BEVs"},
-                  "doc_count": 9,
-                  "from": "5 BEVs",
-                  "to": "20 BEVs",
-                  "size": 9
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "0 BEV"},
-                  "doc_count": 257,
-                  "from": "6 BEVs",
-                  "to": "0 BEV",
-                  "size": 257
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "1 BEV"},
-                  "doc_count": 37,
-                  "from": "6 BEVs",
-                  "to": "1 BEV",
-                  "size": 37
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "2 BEVs"},
-                  "doc_count": 176,
-                  "from": "6 BEVs",
-                  "to": "2 BEVs",
-                  "size": 176
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "3 BEVs"},
-                  "doc_count": 332,
-                  "from": "6 BEVs",
-                  "to": "3 BEVs",
-                  "size": 332
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "4 BEVs"},
-                  "doc_count": 508,
-                  "from": "6 BEVs",
-                  "to": "4 BEVs",
-                  "size": 508
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "5 BEVs"},
-                  "doc_count": 415,
-                  "from": "6 BEVs",
-                  "to": "5 BEVs",
-                  "size": 415
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "6 BEVs"},
-                  "doc_count": 1902,
-                  "from": "6 BEVs",
-                  "to": "6 BEVs",
-                  "size": 1902
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "7 BEVs"},
-                  "doc_count": 55,
-                  "from": "6 BEVs",
-                  "to": "7 BEVs",
-                  "size": 55
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "8 BEVs"},
-                  "doc_count": 248,
-                  "from": "6 BEVs",
-                  "to": "8 BEVs",
-                  "size": 248
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "9 BEVs"},
-                  "doc_count": 52,
-                  "from": "6 BEVs",
-                  "to": "9 BEVs",
-                  "size": 52
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "10 BEVs"},
-                  "doc_count": 76,
-                  "from": "6 BEVs",
-                  "to": "10 BEVs",
-                  "size": 76
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "12 BEVs"},
-                  "doc_count": 184,
-                  "from": "6 BEVs",
-                  "to": "12 BEVs",
-                  "size": 184
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "15 BEVs"},
-                  "doc_count": 5,
-                  "from": "6 BEVs",
-                  "to": "15 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "18 BEVs"},
-                  "doc_count": 9,
-                  "from": "6 BEVs",
-                  "to": "18 BEVs",
-                  "size": 9
-                },
-                {
-                  "key": {"from": "6 BEVs", "to": "20 BEVs"},
-                  "doc_count": 5,
-                  "from": "6 BEVs",
-                  "to": "20 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "0 BEV"},
-                  "doc_count": 48,
-                  "from": "7 BEVs",
-                  "to": "0 BEV",
-                  "size": 48
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "1 BEV"},
-                  "doc_count": 5,
-                  "from": "7 BEVs",
-                  "to": "1 BEV",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "3 BEVs"},
-                  "doc_count": 9,
-                  "from": "7 BEVs",
-                  "to": "3 BEVs",
-                  "size": 9
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "4 BEVs"},
-                  "doc_count": 14,
-                  "from": "7 BEVs",
-                  "to": "4 BEVs",
-                  "size": 14
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "5 BEVs"},
-                  "doc_count": 31,
-                  "from": "7 BEVs",
-                  "to": "5 BEVs",
-                  "size": 31
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "6 BEVs"},
-                  "doc_count": 65,
-                  "from": "7 BEVs",
-                  "to": "6 BEVs",
-                  "size": 65
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "7 BEVs"},
-                  "doc_count": 170,
-                  "from": "7 BEVs",
-                  "to": "7 BEVs",
-                  "size": 170
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "8 BEVs"},
-                  "doc_count": 6,
-                  "from": "7 BEVs",
-                  "to": "8 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "10 BEVs"},
-                  "doc_count": 7,
-                  "from": "7 BEVs",
-                  "to": "10 BEVs",
-                  "size": 7
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "12 BEVs"},
+                  "key": {"from": "3 BEVs", "to": "5 BEVs"},
                   "doc_count": 13,
-                  "from": "7 BEVs",
-                  "to": "12 BEVs",
+                  "from": "3 BEVs",
+                  "to": "5 BEVs",
                   "size": 13
                 },
                 {
-                  "key": {"from": "7 BEVs", "to": "14 BEVs"},
-                  "doc_count": 22,
-                  "from": "7 BEVs",
-                  "to": "14 BEVs",
-                  "size": 22
-                },
-                {
-                  "key": {"from": "7 BEVs", "to": "18 BEVs"},
-                  "doc_count": 5,
-                  "from": "7 BEVs",
-                  "to": "18 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "0 BEV"},
-                  "doc_count": 103,
-                  "from": "8 BEVs",
-                  "to": "0 BEV",
-                  "size": 103
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "1 BEV"},
-                  "doc_count": 28,
-                  "from": "8 BEVs",
-                  "to": "1 BEV",
-                  "size": 28
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "2 BEVs"},
-                  "doc_count": 36,
-                  "from": "8 BEVs",
-                  "to": "2 BEVs",
-                  "size": 36
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "3 BEVs"},
-                  "doc_count": 89,
-                  "from": "8 BEVs",
-                  "to": "3 BEVs",
-                  "size": 89
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "4 BEVs"},
-                  "doc_count": 594,
-                  "from": "8 BEVs",
-                  "to": "4 BEVs",
-                  "size": 594
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "5 BEVs"},
-                  "doc_count": 54,
-                  "from": "8 BEVs",
-                  "to": "5 BEVs",
-                  "size": 54
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "6 BEVs"},
-                  "doc_count": 342,
-                  "from": "8 BEVs",
-                  "to": "6 BEVs",
-                  "size": 342
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "7 BEVs"},
-                  "doc_count": 17,
-                  "from": "8 BEVs",
-                  "to": "7 BEVs",
-                  "size": 17
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "8 BEVs"},
-                  "doc_count": 2037,
-                  "from": "8 BEVs",
-                  "to": "8 BEVs",
-                  "size": 2037
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "9 BEVs"},
-                  "doc_count": 52,
-                  "from": "8 BEVs",
-                  "to": "9 BEVs",
-                  "size": 52
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "10 BEVs"},
-                  "doc_count": 142,
-                  "from": "8 BEVs",
-                  "to": "10 BEVs",
-                  "size": 142
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "12 BEVs"},
-                  "doc_count": 156,
-                  "from": "8 BEVs",
-                  "to": "12 BEVs",
-                  "size": 156
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "14 BEVs"},
-                  "doc_count": 7,
-                  "from": "8 BEVs",
-                  "to": "14 BEVs",
-                  "size": 7
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "15 BEVs"},
-                  "doc_count": 5,
-                  "from": "8 BEVs",
-                  "to": "15 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "16 BEVs"},
-                  "doc_count": 11,
-                  "from": "8 BEVs",
-                  "to": "16 BEVs",
-                  "size": 11
-                },
-                {
-                  "key": {"from": "8 BEVs", "to": "18 BEVs"},
-                  "doc_count": 5,
-                  "from": "8 BEVs",
-                  "to": "18 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "0 BEV"},
-                  "doc_count": 5,
-                  "from": "9 BEVs",
-                  "to": "0 BEV",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "3 BEVs"},
-                  "doc_count": 7,
-                  "from": "9 BEVs",
-                  "to": "3 BEVs",
-                  "size": 7
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "4 BEVs"},
-                  "doc_count": 8,
-                  "from": "9 BEVs",
-                  "to": "4 BEVs",
-                  "size": 8
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "6 BEVs"},
-                  "doc_count": 25,
-                  "from": "9 BEVs",
-                  "to": "6 BEVs",
-                  "size": 25
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "7 BEVs"},
-                  "doc_count": 6,
-                  "from": "9 BEVs",
-                  "to": "7 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "8 BEVs"},
-                  "doc_count": 5,
-                  "from": "9 BEVs",
-                  "to": "8 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "9 BEVs"},
-                  "doc_count": 21,
-                  "from": "9 BEVs",
-                  "to": "9 BEVs",
-                  "size": 21
-                },
-                {
-                  "key": {"from": "9 BEVs", "to": "20 BEVs"},
-                  "doc_count": 6,
-                  "from": "9 BEVs",
-                  "to": "20 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "0 BEV"},
-                  "doc_count": 42,
-                  "from": "10 BEVs",
-                  "to": "0 BEV",
-                  "size": 42
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "1 BEV"},
+                  "key": {"from": "4 BEVs", "to": "1 BEV"},
                   "doc_count": 10,
-                  "from": "10 BEVs",
+                  "from": "4 BEVs",
                   "to": "1 BEV",
                   "size": 10
                 },
                 {
-                  "key": {"from": "10 BEVs", "to": "2 BEVs"},
+                  "key": {"from": "4 BEVs", "to": "2 BEVs"},
+                  "doc_count": 12,
+                  "from": "4 BEVs",
+                  "to": "2 BEVs",
+                  "size": 12
+                },
+                {
+                  "key": {"from": "4 BEVs", "to": "3 BEVs"},
+                  "doc_count": 14,
+                  "from": "4 BEVs",
+                  "to": "3 BEVs",
+                  "size": 14
+                },
+                {
+                  "key": {"from": "4 BEVs", "to": "4 BEVs"},
+                  "doc_count": 19,
+                  "from": "4 BEVs",
+                  "to": "4 BEVs",
+                  "size": 19
+                },
+                {
+                  "key": {"from": "4 BEVs", "to": "5 BEVs"},
+                  "doc_count": 11,
+                  "from": "4 BEVs",
+                  "to": "5 BEVs",
+                  "size": 11
+                },
+                {
+                  "key": {"from": "5 BEVs", "to": "1 BEV"},
+                  "doc_count": 5,
+                  "from": "5 BEVs",
+                  "to": "1 BEV",
+                  "size": 5
+                },
+                {
+                  "key": {"from": "5 BEVs", "to": "2 BEVs"},
                   "doc_count": 7,
-                  "from": "10 BEVs",
+                  "from": "5 BEVs",
                   "to": "2 BEVs",
                   "size": 7
                 },
                 {
-                  "key": {"from": "10 BEVs", "to": "3 BEVs"},
-                  "doc_count": 16,
-                  "from": "10 BEVs",
-                  "to": "3 BEVs",
-                  "size": 16
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "4 BEVs"},
-                  "doc_count": 50,
-                  "from": "10 BEVs",
+                  "key": {"from": "5 BEVs", "to": "4 BEVs"},
+                  "doc_count": 5,
+                  "from": "5 BEVs",
                   "to": "4 BEVs",
-                  "size": 50
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "5 BEVs"},
-                  "doc_count": 200,
-                  "from": "10 BEVs",
-                  "to": "5 BEVs",
-                  "size": 200
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "6 BEVs"},
-                  "doc_count": 44,
-                  "from": "10 BEVs",
-                  "to": "6 BEVs",
-                  "size": 44
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "8 BEVs"},
-                  "doc_count": 190,
-                  "from": "10 BEVs",
-                  "to": "8 BEVs",
-                  "size": 190
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "9 BEVs"},
-                  "doc_count": 7,
-                  "from": "10 BEVs",
-                  "to": "9 BEVs",
-                  "size": 7
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "10 BEVs"},
-                  "doc_count": 820,
-                  "from": "10 BEVs",
-                  "to": "10 BEVs",
-                  "size": 820
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "12 BEVs"},
-                  "doc_count": 43,
-                  "from": "10 BEVs",
-                  "to": "12 BEVs",
-                  "size": 43
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "15 BEVs"},
-                  "doc_count": 67,
-                  "from": "10 BEVs",
-                  "to": "15 BEVs",
-                  "size": 67
-                },
-                {
-                  "key": {"from": "10 BEVs", "to": "18 BEVs"},
-                  "doc_count": 5,
-                  "from": "10 BEVs",
-                  "to": "18 BEVs",
                   "size": 5
                 },
                 {
-                  "key": {"from": "10 BEVs", "to": "20 BEVs"},
+                  "key": {"from": "6 BEVs", "to": "3 BEVs"},
                   "doc_count": 6,
-                  "from": "10 BEVs",
-                  "to": "20 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "0 BEV"},
-                  "doc_count": 19,
-                  "from": "12 BEVs",
-                  "to": "0 BEV",
-                  "size": 19
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "3 BEVs"},
-                  "doc_count": 9,
-                  "from": "12 BEVs",
+                  "from": "6 BEVs",
                   "to": "3 BEVs",
-                  "size": 9
+                  "size": 6
                 },
                 {
-                  "key": {"from": "12 BEVs", "to": "4 BEVs"},
-                  "doc_count": 20,
-                  "from": "12 BEVs",
-                  "to": "4 BEVs",
-                  "size": 20
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "5 BEVs"},
-                  "doc_count": 17,
-                  "from": "12 BEVs",
+                  "key": {"from": "6 BEVs", "to": "5 BEVs"},
+                  "doc_count": 5,
+                  "from": "6 BEVs",
                   "to": "5 BEVs",
-                  "size": 17
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "6 BEVs"},
-                  "doc_count": 39,
-                  "from": "12 BEVs",
-                  "to": "6 BEVs",
-                  "size": 39
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "8 BEVs"},
-                  "doc_count": 38,
-                  "from": "12 BEVs",
-                  "to": "8 BEVs",
-                  "size": 38
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "9 BEVs"},
-                  "doc_count": 9,
-                  "from": "12 BEVs",
-                  "to": "9 BEVs",
-                  "size": 9
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "10 BEVs"},
-                  "doc_count": 25,
-                  "from": "12 BEVs",
-                  "to": "10 BEVs",
-                  "size": 25
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "12 BEVs"},
-                  "doc_count": 111,
-                  "from": "12 BEVs",
-                  "to": "12 BEVs",
-                  "size": 111
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "14 BEVs"},
-                  "doc_count": 5,
-                  "from": "12 BEVs",
-                  "to": "14 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "15 BEVs"},
-                  "doc_count": 11,
-                  "from": "12 BEVs",
-                  "to": "15 BEVs",
-                  "size": 11
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "16 BEVs"},
-                  "doc_count": 6,
-                  "from": "12 BEVs",
-                  "to": "16 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "18 BEVs"},
-                  "doc_count": 13,
-                  "from": "12 BEVs",
-                  "to": "18 BEVs",
-                  "size": 13
-                },
-                {
-                  "key": {"from": "12 BEVs", "to": "20 BEVs"},
-                  "doc_count": 5,
-                  "from": "12 BEVs",
-                  "to": "20 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "14 BEVs", "to": "6 BEVs"},
-                  "doc_count": 8,
-                  "from": "14 BEVs",
-                  "to": "6 BEVs",
-                  "size": 8
-                },
-                {
-                  "key": {"from": "14 BEVs", "to": "12 BEVs"},
-                  "doc_count": 9,
-                  "from": "14 BEVs",
-                  "to": "12 BEVs",
-                  "size": 9
-                },
-                {
-                  "key": {"from": "14 BEVs", "to": "14 BEVs"},
-                  "doc_count": 11,
-                  "from": "14 BEVs",
-                  "to": "14 BEVs",
-                  "size": 11
-                },
-                {
-                  "key": {"from": "15 BEVs", "to": "6 BEVs"},
-                  "doc_count": 6,
-                  "from": "15 BEVs",
-                  "to": "6 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "15 BEVs", "to": "8 BEVs"},
-                  "doc_count": 5,
-                  "from": "15 BEVs",
-                  "to": "8 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "15 BEVs", "to": "9 BEVs"},
-                  "doc_count": 6,
-                  "from": "15 BEVs",
-                  "to": "9 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "15 BEVs", "to": "10 BEVs"},
-                  "doc_count": 5,
-                  "from": "15 BEVs",
-                  "to": "10 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "15 BEVs", "to": "12 BEVs"},
-                  "doc_count": 7,
-                  "from": "15 BEVs",
-                  "to": "12 BEVs",
-                  "size": 7
-                },
-                {
-                  "key": {"from": "15 BEVs", "to": "15 BEVs"},
-                  "doc_count": 8,
-                  "from": "15 BEVs",
-                  "to": "15 BEVs",
-                  "size": 8
-                },
-                {
-                  "key": {"from": "15 BEVs", "to": "20 BEVs"},
-                  "doc_count": 8,
-                  "from": "15 BEVs",
-                  "to": "20 BEVs",
-                  "size": 8
-                },
-                {
-                  "key": {"from": "16 BEVs", "to": "9 BEVs"},
-                  "doc_count": 6,
-                  "from": "16 BEVs",
-                  "to": "9 BEVs",
-                  "size": 6
-                },
-                {
-                  "key": {"from": "18 BEVs", "to": "18 BEVs"},
-                  "doc_count": 5,
-                  "from": "18 BEVs",
-                  "to": "18 BEVs",
-                  "size": 5
-                },
-                {
-                  "key": {"from": "20 BEVs", "to": "20 BEVs"},
-                  "doc_count": 5,
-                  "from": "20 BEVs",
-                  "to": "20 BEVs",
                   "size": 5
                 }
               ]
@@ -1680,10 +718,10 @@
 
   <div class="callout"> 
     <p>
-      Note 1: This Sankey diagram illustrates the <strong>dynamic flow</strong> of the <strong>number of green vehicles (BEVs) owned per household</strong> in the green adopter population. The width of the streams corresponds to the flow rate. The pillar shows the development from 2020 to 2022 regarding the <strong>relative number of households</strong> having had 0, 1, 2, 3, 4, 5, or more green vehicles (BEVs). The height of the pillar (the outer y-axis values) shows the <strong>number of households in the green adopter population</strong> in 2020. The left side of the pillar indicates the start year, 2020, and its right side indicates the last year, 2022. As a limitation, note that this pillar only shows the green ownership development in the households registered as residents by the beginning year of the pillar, i.e. this pillar does not capture any newly registered households after 2020.
+      Note 1: This Sankey diagram illustrates the <strong>dynamic flow</strong> of the <strong>number of green vehicles (BEVs) owned per household</strong> in the green adopter population. The width of the streams corresponds to the flow rate. The pillar shows the development from 2020 to 2022 regarding the <strong>relative number of households</strong> having had 0, 1, 2, or more green vehicles (BEVs). The height of the pillar (the outer y-axis values) shows the <strong>number of households in the green adopter population</strong> in 2020. The left side of the pillar indicates the start year, 2020, and its right side indicates the last year, 2022. As a limitation, note that this pillar only shows the green ownership development in the households registered as residents by the beginning year of the pillar, i.e. this pillar does not capture any newly registered households after 2020.
     </p>
     <p>
-      Note 2: Read the numbers on the inner edge of the Sankey diagram, depicted with split darker colors, as follows: share of households owning <i>m</i> green vehicle(s) in year 2020 → share of households owning <i>n</i> green vehicle(s) in year 2022, where <i>m</i> and <i>n</i> = 0, 1, 2, 3, 4, 5, or more green vehicles (BEVs).
+      Note 2: Read the numbers on the inner edge of the Sankey diagram, depicted with split darker colors, as follows: share of households owning <i>m</i> green vehicle(s) in year 2020 → share of households owning <i>n</i> green vehicle(s) in year 2022, where <i>m</i> and <i>n</i> = 0, 1, 2, or more green vehicles (BEVs).
     </p>
   </div>
 
@@ -1695,7 +733,12 @@
       <a href="https://orcid.org/0000-0002-3499-0167" target="_new" title="ORCiD DQ">Qorbani, D.</a>,
       <a href="https://orcid.org/0000-0003-3728-6519" target="_new" title="ORCiD HK">Korzilius, H. P. L. M.</a>, &
       <a href="https://orcid.org/0000-0001-6462-0266" target="_new" title="ORCiD SEF">Fleten, S-E</a> (2024).
-      Ownership of battery electric vehicles is uneven in Norwegian households. <i>Communications Earth & Environment</i>. <a href="https://doi.org/10.1038/s43247-024-01303-z" target="_new" title="DOI">https://doi.org/10.1038/s43247-024-01303-z</a>.
+      Author Correction: Ownership of battery electric vehicles is uneven in Norwegian households. <i>Communications Earth & Environment</i>,  In Press. <a href="#" target="_new" title="DOI">https://doi.org/#</a>.
+    </p>
+
+    <p>
+      This figure is a correction to the original version by the authors (2024),
+      Ownership of battery electric vehicles is uneven in Norwegian households. <i>Communications Earth & Environment</i> <a href="https://doi.org/10.1038/s43247-024-01303-z" target="_new" title="DOI">https://doi.org/10.1038/s43247-024-01303-z</a>.
     </p>
 
     <p>
